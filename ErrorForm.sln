@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorForm", "ErrorForm\ErrorForm.csproj", "{3A600F71-2CEE-4BAF-AF7F-51B5653DF878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorFormTest", "ErrorFormTest\ErrorFormTest.csproj", "{8518C251-14D2-4265-AF63-5F289D1BA8A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A600F71-2CEE-4BAF-AF7F-51B5653DF878} = {3A600F71-2CEE-4BAF-AF7F-51B5653DF878}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorFormWPFTest", "ErrorFormWPFTest\ErrorFormWPFTest.csproj", "{1433D547-8A8D-47EA-A773-B599CEEC8B07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A11AB49-519B-4D17-89A1-78CCDCE00C20} = {3A11AB49-519B-4D17-89A1-78CCDCE00C20}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorFormWPF", "ErrorFormWPF\ErrorFormWPF.csproj", "{3A11AB49-519B-4D17-89A1-78CCDCE00C20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A600F71-2CEE-4BAF-AF7F-51B5653DF878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A600F71-2CEE-4BAF-AF7F-51B5653DF878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A600F71-2CEE-4BAF-AF7F-51B5653DF878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A600F71-2CEE-4BAF-AF7F-51B5653DF878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8518C251-14D2-4265-AF63-5F289D1BA8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8518C251-14D2-4265-AF63-5F289D1BA8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8518C251-14D2-4265-AF63-5F289D1BA8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8518C251-14D2-4265-AF63-5F289D1BA8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1433D547-8A8D-47EA-A773-B599CEEC8B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1433D547-8A8D-47EA-A773-B599CEEC8B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1433D547-8A8D-47EA-A773-B599CEEC8B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1433D547-8A8D-47EA-A773-B599CEEC8B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A11AB49-519B-4D17-89A1-78CCDCE00C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A11AB49-519B-4D17-89A1-78CCDCE00C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A11AB49-519B-4D17-89A1-78CCDCE00C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A11AB49-519B-4D17-89A1-78CCDCE00C20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

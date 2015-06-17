@@ -1,0 +1,15 @@
+﻿<Window x:Class="ErrorFormWPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="99" Width="224" Closing="MainWindow_Closing"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="3">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Button Content="Throw built-in exception" Grid.Row="0" Margin="3" Click="Button_Click" />
+        <Button Content="Throw custom exception" Grid.Row="1" Margin="3" Click="Button_Click_1" />
+    </Grid>
+</Window>
