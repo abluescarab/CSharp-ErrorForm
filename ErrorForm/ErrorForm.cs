@@ -60,5 +60,12 @@ namespace ErrorForm {
         private void btnOK_Click(object sender, EventArgs e) {
             this.Hide();
         }
+
+        public void Reset() {
+            WebsiteLink = "";
+            ErrorLabelText = "The following error has occurred:";
+            SendLinkText = "Send me this error.";
+            SendLinkEnabled = false;
+        }
     }
 }
