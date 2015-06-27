@@ -8,9 +8,9 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ErrorFormWPF")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("An easy-to-use error form that can be included in your projects. This version is for Windows Presentation Foundation.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Abluescarab Designs")]
 [assembly: AssemblyProduct("ErrorFormWPF")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]

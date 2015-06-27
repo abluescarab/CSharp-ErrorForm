@@ -11,3 +11,8 @@ Make a new WinForms or WPF project in Visual Studio and include a reference to E
 * **ErrorLabelText** - The text displayed above the error textbox. (*Default*: "The following error has occurred:")
 * **SendLinkText** - The text displayed for your website link. (*Default*: "Send me this error.")
 * **SendLinkEnabled** - Whether to show or hide the website link. If **WebsiteLink** is null or empty, **SendLinkEnabled** will automatically be *false*.
+
+## Install via NuGet
+You can install via NuGet by either installing through Visual Studio or running one of these commands:
+    PM> Install-Package ErrorForm
+    PM> Install-Package ErrorFormWPF
