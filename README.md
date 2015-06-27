@@ -14,5 +14,6 @@ Make a new WinForms or WPF project in Visual Studio and include a reference to E
 
 ## Install via NuGet
 You can install via NuGet by either installing through Visual Studio or running one of these commands:
+
     PM> Install-Package ErrorForm
     PM> Install-Package ErrorFormWPF
