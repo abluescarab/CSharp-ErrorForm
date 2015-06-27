@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ErrorForm")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("An easy-to-use error form that can be included in your projects.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Abluescarab Designs")]
 [assembly: AssemblyProduct("ErrorForm")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
